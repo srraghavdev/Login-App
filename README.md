@@ -37,13 +37,13 @@ Profile page (Custom avatar is displayed with user information and a Logout butt
 
 # Project Structure
 
-The project has four pages i.e. LandingPage.js,Login.js,Profile.js and Signup.js.\ 
-Assets folder with camera image found in profile image.\
-Components folder with Input and Button compoenents both of which are styled custom components.\
-firebaseConfig where all the firebaseConfig is stored.\ 
-App.js has all the Routes for each page.\ 
-Each component has an index.js file and a styles.css file.\
-Custom favicons placed in the public folder\
+The project has four pages i.e. LandingPage.js,Login.js,Profile.js and Signup.js.  
+Assets folder with camera image found in profile image.  
+Components folder with Input and Button compoenents both of which are styled custom components.  
+firebaseConfig where all the firebaseConfig is stored.  
+App.js has all the Routes for each page.  
+Each component has an index.js file and a styles.css file.  
+Custom favicons placed in the public folder  
 
 # Steps to setup project locally
 
