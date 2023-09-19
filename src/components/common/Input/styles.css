@@ -1,0 +1,48 @@
+.input-cont {
+  position: relative;
+  margin-top: 1.438rem;
+}
+
+.input-label {
+  text-align: left;
+  font-size: 0.813rem;
+  font-weight: 400;
+  font-family: Rubik;
+  letter-spacing: 0px;
+  color: #6c25ff;
+  opacity: 1;
+  line-height: 17px;
+  z-index: 1;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  padding: 0px 4px;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+}
+.input-custom {
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  opacity: 1;
+  background: #f7f8f9 0% 0% no-repeat padding-box;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: Rubik;
+  padding: 0.688rem 1rem;
+  line-height: 17px;
+  width: 100%;
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+.login-heading {
+  text-align: left;
+  font-size: 1.625rem;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+  max-width: 11.75rem;
+}
