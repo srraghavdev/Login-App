@@ -9,6 +9,7 @@ import { db } from "../firebaseConfig";
 import { auth } from "../firebaseConfig";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 const Login = () => {
   let [email, Setemail] = useState("");
   let [password, Setpassword] = useState("");
@@ -63,7 +64,7 @@ const Login = () => {
   }
 
   return (
-    <div className="login-cont">
+    <motion.div className="login-cont" initial={{y:-50,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.3}}>
       <ToastContainer></ToastContainer>
       <p className="login-heading">Signin to your PopX account</p>
       <p className="lorem">
@@ -92,7 +93,7 @@ const Login = () => {
           optionalclass={"inputbtn"}
         ></Button>
       </form>
-    </div>
+    </motion.div>
   );
 };
 export default Login;

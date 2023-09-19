@@ -9,6 +9,7 @@ import { db } from "../firebaseConfig";
 import { auth } from "../firebaseConfig";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 const Signup = () => {
   let [fname, Setfname] = useState("");
   let [number, Setnumber] = useState("");
@@ -74,7 +75,7 @@ const Signup = () => {
       });
   }
   return (
-    <div className="signup-cont">
+    <motion.div className="signup-cont" initial={{y:50,opacity:0}} animate={{y:0,opacity:1}} transition={{duration:0.3}}>
       <p className="login-heading">Create your PopX account</p>
       <form className="signup-form" onSubmit={registeruser}>
         <Input
@@ -150,7 +151,7 @@ const Signup = () => {
       </form>
       <ToastContainer />
       {/* toast container to allow toast to be visible */}
-    </div>
+    </motion.div>
   );
 };
 

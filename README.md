@@ -1,4 +1,57 @@
-# Getting Started with Create React App
+# LoginApp
+
+This project is built using ReactJs,Firebase,React-Router-DOM,React-Avatar,Framer-Motion and Toastify.
+
+Depencdies used and their functions:
+
+## Firebase
+
+Firebase is used for authentication and FireStore for storing the details in a document for each user inside 'user_details' collection.
+
+## React-Router-DOM
+
+React-Router-DOM is used to make pages like (login , signup and profile) using Routes
+
+## React-Avatar
+
+React-Avatar is used to create custom rounded avatar using name initials.
+
+## Framer-Motion
+
+Framer-Motion is used for appyling animation to each page
+
+## Toastify
+
+Toastify is used for adding toasts for success and errors during signing up and logging in.
+
+# User Flow
+
+The user will be taken to the home page where the user can go to either Login page or Signup page.
+
+## Flow
+
+Home=>Login OR Signup
+Login page (Enter details and login to your account with toasts for errors) = > Profile page
+Signup page (Enter all the details that are required and get registered with relevant toasts with validations ) = > Profile page
+Profile page (Custom avatar is displayed with user information and a Logout button, checking to give access to profile page only when a user is signed in) => Logout(will take user back to Home page)
+
+# Project Structure
+
+1.The project has four pages i.e. LandingPage.js,Login.js,Profile.js and Signup.js. 
+2. Assets folder with camera image found in profile image.
+3.Components folder with Input and Button compoenents both of which are styled custom components.
+4.firebaseConfig where all the firebaseConfig is stored. 
+5. App.js has all the Routes for each page. 
+6. Each component has an index.js file and a styles.css file.
+7.Custom favicons placed in the public folder
+
+# Steps to setup project locally
+
+## Adding Firbase
+
+To run this project locally , please add firebaseConfig object to firebaseConfig.js before running the project(left empty by default). [Reference](https://firebase.google.com/docs/web/setup).
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

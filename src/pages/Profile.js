@@ -9,6 +9,7 @@ import { signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import Avatar from "react-avatar";
 import Button from "../components/common/Button";
+import { motion } from "framer-motion";
 function Profile() {
   let [isLoading, SetisLoading] = useState(true);
   let [fname, Setfname] = useState("");
@@ -68,7 +69,7 @@ function Profile() {
       });
   }
   return (
-    <div className="profile-container">
+    <motion.div className="profile-container" initial={{x:50,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:0.3}}>
       <header className="profile-header">Account Settings</header>
       {isLoading ? (
         <div className="lds-ring">
@@ -105,7 +106,7 @@ function Profile() {
         ></Button>
       </div>
       <p className="dotted custome"></p>
-    </div>
+    </motion.div>
   );
 }
 

@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "../components/common/Button";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 const LandingPage = () => {
   let navigate = useNavigate();
   return (
-    <div className="container">
+    <motion.div className="container" initial={{x:-50,opacity:0}} animate={{x:0,opacity:1}} transition={{duration:0.3}}>
       <p className="heading">Welcome to PopX</p>
       <p className="lorem">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -20,7 +21,7 @@ const LandingPage = () => {
         filled={false}
         onClick={() => navigate("/login")}
       ></Button>
-    </div>
+    </motion.div>
   );
 };
 
