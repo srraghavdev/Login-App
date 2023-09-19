@@ -30,20 +30,20 @@ The user will be taken to the home page where the user can go to either Login pa
 
 ## Flow
 
-Home=>Login OR Signup
-Login page (Enter details and login to your account with toasts for errors) = > Profile page
-Signup page (Enter all the details that are required and get registered with relevant toasts with validations ) = > Profile page
-Profile page (Custom avatar is displayed with user information and a Logout button, checking to give access to profile page only when a user is signed in) => Logout(will take user back to Home page)
+Home=>Login OR Signup\
+Login page (Enter details and login to your account with toasts for errors) = > Profile page\
+Signup page (Enter all the details that are required and get registered with relevant toasts with validations ) = > Profile page\
+Profile page (Custom avatar is displayed with user information and a Logout button, checking to give access to profile page only when a user is signed in) => Logout(will take user back to Home page)\
 
 # Project Structure
 
-1.The project has four pages i.e. LandingPage.js,Login.js,Profile.js and Signup.js. 
-2. Assets folder with camera image found in profile image.
-3.Components folder with Input and Button compoenents both of which are styled custom components.
-4.firebaseConfig where all the firebaseConfig is stored. 
-5. App.js has all the Routes for each page. 
-6. Each component has an index.js file and a styles.css file.
-7.Custom favicons placed in the public folder
+1.The project has four pages i.e. LandingPage.js,Login.js,Profile.js and Signup.js.\ 
+2. Assets folder with camera image found in profile image.\
+3.Components folder with Input and Button compoenents both of which are styled custom components.\
+4.firebaseConfig where all the firebaseConfig is stored.\ 
+5. App.js has all the Routes for each page.\ 
+6. Each component has an index.js file and a styles.css file.\
+7.Custom favicons placed in the public folder\
 
 # Steps to setup project locally
 
