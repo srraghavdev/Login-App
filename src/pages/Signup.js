@@ -133,7 +133,7 @@ const Signup = () => {
               id="yes"
               name="agency_radio"
               value={true}
-              checked="checked"
+              defaultChecked="checked"
             ></input>
             <span className="radio-label">Yes</span>
           </label>
