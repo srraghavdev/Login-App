@@ -2,7 +2,7 @@
 
 This project is built using ReactJs,Firebase,React-Router-DOM,React-Avatar,Framer-Motion and Toastify.
 
-Depencdies used and their functions:
+Dependencies used and their functions:
 
 ## Firebase
 
