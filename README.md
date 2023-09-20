@@ -33,7 +33,7 @@ The user will be taken to the home page where the user can go to either Login pa
 Home=>Login OR Signup\
 Login page (Enter details and login to your account with toasts for errors) = > Profile page\
 Signup page (Enter all the details that are required and get registered with relevant toasts with validations ) = > Profile page\
-Profile page (Custom avatar is displayed with user information and a Logout button, checking to give access to profile page only when a user is signed in) => Logout(will take user back to Home page)\
+Profile page (Custom avatar is displayed with user information and a Logout button, checking to give access to profile page only when a user is signed in) => Logout(will take user back to Home page)
 
 # Project Structure
 
@@ -49,7 +49,7 @@ Custom favicons placed in the public folder
 
 ## Adding Firbase
 
-To run this project locally , please add firebaseConfig object to firebaseConfig.js before running the project(left empty by default). [Reference](https://firebase.google.com/docs/web/setup).
+To run this project locally , please add firebaseConfig object to firebaseConfig.js before running the project(left empty by default). [Reference](https://firebase.google.com/docs/web/setup) for FireBase
 
 ## Getting Started with Create React App
 
